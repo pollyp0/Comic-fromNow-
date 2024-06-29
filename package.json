@@ -1,0 +1,21 @@
+{
+  "name": "polinagomic",
+  "version": "1.0.0",
+  "description": "Polina Gomic homework",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "webpack",
+    "start": "node dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.2",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
